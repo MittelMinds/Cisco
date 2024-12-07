@@ -1,9 +1,8 @@
 <script>
-	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
-	import Dashboard from './Dashboard.svelte';
+	import Dashboard from '../lib/components/Dashboard.svelte';
 </script>
 
 <svelte:head>
