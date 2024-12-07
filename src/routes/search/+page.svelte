@@ -24,7 +24,7 @@
 	let selectCategory = 'All categories';
 </script>
 
-<form class="flex">
+<form class="flex mb-4">
 	<div class="relative">
 		<Button class="whitespace-nowrap rounded-e-none border border-e-0 border-primary-700">
 			{selectCategory}

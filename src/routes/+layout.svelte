@@ -24,7 +24,7 @@
 
 	main {
 		
-		padding: 1rem;
+		padding: 3rem;
 		width: 100%;
 	}
 

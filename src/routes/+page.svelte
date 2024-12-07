@@ -1,8 +1,23 @@
 <script>
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+	import {
+		Navbar,
+		NavBrand,
+		NavLi,
+		NavUl,
+		NavHamburger,
+		Textarea,
+		Toolbar,
+		ToolbarGroup,
+		ToolbarButton,
+		Button,
+
+		Card
+
+	} from 'flowbite-svelte';
 	import Dashboard from '../lib/components/Dashboard.svelte';
+	import { PaperClipOutline, MapPinAltSolid, ImageOutline, ArrowRightOutline } from 'flowbite-svelte-icons';
 </script>
 
 <svelte:head>
@@ -10,36 +25,26 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
- <Dashboard/>
+<section class="bg-amber-300">
+	<!-- <div class="lg:h-24">
+	</div> -->
+	<h1 class="mb-4 text-5xl font-bold">Revolutionary efficiency for all.</h1>
+	<h2 class="text-lg">Enterprise-level cost-savings for companies of all sizes.</h2>
+
+
+<Card class="mt-6">
+	<h2 class="text-xl text-black font-semibold mb-6">What are you looking for?</h2>
+	<form>
+		<Textarea class="mb-4 lg:w-full" placeholder="You can type anything, it's like magic!">
+		  <div slot="footer" class="flex items-center justify-between">
+			<Button type="submit"><ArrowRightOutline/></Button>
+		  </div>
+		</Textarea>
+	  </form>
+	  <p class="ms-auto text-xs text-gray-500 dark:text-gray-400">
+		Our AI has been trained to help you find the best matches for your needs.
+	  </p>
+
+</Card>
+	
 </section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>

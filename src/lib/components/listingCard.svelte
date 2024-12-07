@@ -9,9 +9,9 @@
 
 <Card padding="lg">
 	<a href="/">
-		<img class="rounded-t-lg p-8 mb-8" src={imgsrc} alt="product 1" />
+		<img class="rounded-t-lg p-8" src={imgsrc} alt="product 1" />
 	</a>
-	<div class="px-5 pb-5">
+	<div class="pt-5 px-5 pb-5">
 		<a href="/">
 			<h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
 				{title}

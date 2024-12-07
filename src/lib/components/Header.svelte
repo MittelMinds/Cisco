@@ -32,7 +32,7 @@
 		<NavHamburger />
 	</div>
 	<NavUl class="order-1">
-		<NavLi href="/" active={true}>Dashboard</NavLi>
+		<NavLi href="dashboard" active={true}>Dashboard</NavLi>
 
 		<NavLi class="cursor-pointer">
 			Connect
