@@ -3,3 +3,12 @@
 @import 'tailwindcss/utilities';
 @import '@fontsource/fira-mono';
 
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lexend:wght@100..900&display=swap');
+
+body {
+    font-family: 'Lexend'; /* Replace with your desired font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
