@@ -26,7 +26,7 @@
 	  <NavLi href="/" active={true}>Dashboard</NavLi>
 	  <NavLi href="/about">Connect</NavLi>
 	  <NavLi href="/docs/components/navbar">Business Relations</NavLi>
-	  <NavLi href="/pricing">My Business</NavLi>
+	  <NavLi href="/mybusiness">My Business</NavLi>
 	</NavUl>
 </Navbar>
 
