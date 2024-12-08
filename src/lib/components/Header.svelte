@@ -43,6 +43,7 @@
 		</DropdownHeader>
 		<DropdownItem href="dashboard">My Dashboard</DropdownItem>
 		<DropdownItem href="mybusiness">Settings</DropdownItem>
+		<DropdownItem href="demo2">Demo 2</DropdownItem>
 		<DropdownDivider />
 		<DropdownItem>Sign out</DropdownItem>
 	</Dropdown>

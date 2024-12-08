@@ -9,7 +9,8 @@
 		MailBoxSolid,
 		UserSolid,
 		ArrowRightToBracketOutline,
-		EditOutline
+		EditOutline,
+		ArrowRightOutline
 	} from 'flowbite-svelte-icons';
 	$: activeUrl = $page.url.pathname;
 </script>
@@ -26,7 +27,7 @@
 		</div>
 
 		<div class="ml-4 w-2/3 rounded p-6 text-xl outline outline-1 outline-gray-300 shadow-md">
-			<p class="font-xl ml-2 mb-4">My Outsourced Processes</p>
+			<p class="font-xl ml-2 mb-4">My Queries</p>
 			<div class="flex flex-row space-x-6">
 				<div class="bg-gray-200 outline outline-1 outline-gray-400 p-4 rounded h-fit w-fit">
 					<p class="text-md mb-2">Cybersecurity Training</p>
@@ -35,10 +36,15 @@
 					<Button color="light">manage</Button>
 				</div>
 				<div class="bg-gray-200 outline outline-1 outline-gray-400 p-4 rounded h-fit w-fit">
-					<p class="text-md mb-2">Solar Panel Installation</p>
-					<p class="text-sm">Scheduled for: 04/02/2024, 7:00am</p>
-					<p class="text-sm mb-4">Provided by: SolarexpertenDE GmbH</p>
-					<Button color="light">manage</Button>
+					<p class="text-md mb-2 flex flex-row">Epoxy Resin <ArrowRightOutline class="mt-1 mx-2"/> Adhesive Formulation</p>
+					<p class="text-sm">Recommendation: Quality Control Innovation</p>
+					<p class="text-sm mb-4">Potential partners: 8</p>
+					<div class="flex flex-row">
+						<Button color="light">manage</Button>
+						<div class="grow"></div>
+						<img class="ml-2 mt-4 h-6 w-auto" src="/src/lib/images/process-icon.png" alt="icon">
+					</div>
+					
 				</div>
 			</div>
 
