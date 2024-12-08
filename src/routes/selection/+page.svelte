@@ -1,10 +1,9 @@
 <script>
-	import { Card, Button, Toggle } from 'flowbite-svelte';
+	import { Card, Button, Toggle, Badge } from 'flowbite-svelte';
 	import { ArrowRightOutline } from 'flowbite-svelte-icons';
 
-	import SelectionCard from "/src/lib/components/selectionCard.svelte"
-	
-  </script>
+	import SelectionCard from '/src/lib/components/selectionCard.svelte';
+</script>
 
 <svelte:head>
 	<title>Search</title>
@@ -12,19 +11,57 @@
 </svelte:head>
 
 <div class="mt-4">
-	<h1 class="text-3xl font-semibold mb-2">Offers for you</h1>
+	<h1 class="mb-2 text-3xl font-semibold">Offers for you</h1>
 
-	<p class="mb-6">
-		Here are some great collab opportunities!
-	</p>
+	<p class="mb-6">Here are some great collab opportunities!</p>
 
 	<div class="flex space-x-4">
-					
-			<SelectionCard imgsrc="/src/lib/images/ai_bot_image.webp" title="Use our AI Assistant" subtitle="Let it interactively guide you towards finding the perfect partner." buttonlabel="Let's go"/>
-
-			<SelectionCard imgsrc="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png" title="Search manually" subtitle="Use keywords and filters to find what you're looking for." buttonlabel="Search"/>
 		
+		<Card class="h-fit">
+			<Badge border color="green" class="w-fit mb-4">Recommended</Badge>
+			<h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Group Training Session</h5>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Share a training session with two other companies of a similar size and save on the rate.</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Provider: Know - Die Fortbildungsagentur.</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Type: in-person</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Distance: less than 10km</p>
+			<div class="outline outline-1 pt-2 pl-2 mb-2 rounded">
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Total cost: 450,76€</p>
+			</div>
+			<Button href="detailsDemo" color="dark" class="mt-2">
+				Learn more <ArrowRightOutline class="ml-2"/>
+			</Button>
+		</Card>
+
+		<Card class="h-fit">
+			<Badge border color="red" class="w-fit mb-4">% Budget Pick</Badge>
+			<h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Zoom Training Session</h5>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Take part in a zoom meeting training session held to approx. 300 people.</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Provider: EduTech Germany</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Type: online</p>
+			<div class="outline outline-1 pt-2 pl-2 mb-2 rounded">
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Total cost: 100,48€</p>
+			</div>
+			<Button color="dark" class="mt-2">
+				Learn more <ArrowRightOutline class="ml-2"/>
+			</Button>
+		</Card>
+
+		<Card class="h-fit">
+			<Badge border color="yellow" class="w-fit mb-4">High-Quality</Badge>
+			<h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Private Consultancy Service</h5>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Book a private training session for your team.</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Provider: Ludwigsberger IT Consulting München</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Type: in-person</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Distance: less than 3km</p>
+			<div class="outline outline-1 pt-2 pl-2 mb-2 rounded">
+				<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Total cost: 2580,79€</p>
+			</div>
+			
+			<Button color="dark" class="mt-2">
+				Learn more <ArrowRightOutline class="ml-2"/>
+			</Button>
+		</Card>
+
+	
 	</div>
-
-
 </div>
