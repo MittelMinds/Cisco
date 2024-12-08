@@ -99,7 +99,7 @@
 				imgsrc="/src/lib/images/robot-pfp.webp"
 				name="AI Assistant"
 				timestamp="just now"
-				text="Thank you. Now I just have one last question: Would you like the training session to be hosted in German, English, or perhaps a different language?"
+				text="Thank you. Would you like the training session to be hosted in German, English, or perhaps a different language?"
 			/>
 		{/if}
 
@@ -117,7 +117,7 @@
 				imgsrc="/src/lib/images/robot-pfp.webp"
 				name="AI Assistant"
 				timestamp="just now"
-				text="Perfect, thank you for taking the time to answer these questions. Is there anything else you'd like to tell me?"
+				text="Perfect, now I just have one last question: When would you like the training to take place? If you are flexible on the dates, feel free to tell me that too!"
 			/>
 		{/if}
 
@@ -126,11 +126,29 @@
 				imgsrc="/src/lib/images/cat-avatar.png"
 				name="You"
 				timestamp="just now"
-				text="No, that's all."
+				text="Something around the end of February next year, before noon, would be great."
 			/>
 		{/if}
 
 		{#if chatStep>4}
+			<ChatBubble
+				imgsrc="/src/lib/images/robot-pfp.webp"
+				name="AI Assistant"
+				timestamp="just now"
+				text="Perfect, thank you for taking the time to answer these questions. Is there anything else you'd like to tell me?"
+			/>
+		{/if}
+
+		{#if chatStep>5}
+			<ChatBubble
+				imgsrc="/src/lib/images/cat-avatar.png"
+				name="You"
+				timestamp="just now"
+				text="No, that's all."
+			/>
+		{/if}
+
+		{#if chatStep>5}
 			<ChatBubble
 				imgsrc="/src/lib/images/robot-pfp.webp"
 				name="AI Assistant"
@@ -140,7 +158,7 @@
 		{/if}
 
 
-		{#if chatStep>4}
+		{#if chatStep>5}
 			<GradientButton href="selection" class="ml-12 max-w-[320px]" color="purple">Next</GradientButton>
 		{/if}
 

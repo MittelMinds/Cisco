@@ -24,6 +24,7 @@
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Provider: Know - Die Fortbildungsagentur.</p>
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Type: in-person</p>
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Distance: less than 10km</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Date: 27/02/2024, 10:30am</p>
 			<div class="outline outline-1 pt-2 pl-2 mb-2 rounded">
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Total cost: 450,76€</p>
 			</div>
@@ -38,6 +39,7 @@
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Take part in a zoom meeting training session held to approx. 300 people.</p>
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Provider: EduTech Germany</p>
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Type: online</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Date: 23/02/2024, 9:00am</p>
 			<div class="outline outline-1 pt-2 pl-2 mb-2 rounded">
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Total cost: 100,48€</p>
 			</div>
@@ -53,6 +55,7 @@
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Provider: Ludwigsberger IT Consulting München</p>
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Type: in-person</p>
 			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Distance: less than 3km</p>
+			<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Date: 21/02/2024, 11:30am</p>
 			<div class="outline outline-1 pt-2 pl-2 mb-2 rounded">
 				<p class="mb-3 font-normal leading-tight text-gray-700 dark:text-gray-400">Total cost: 2580,79€</p>
 			</div>
