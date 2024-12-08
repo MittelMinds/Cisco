@@ -32,7 +32,7 @@
 	<p class="mb-6">Ask away.</p>
 
 	<div 
-		class="mb-2 flex h-80 flex-col overflow-y-scroll rounded p-4 outline outline-2 outline-gray-500"
+		class="bg-white mb-2 flex h-80 flex-col overflow-y-scroll rounded p-4 outline outline-2 outline-gray-500"
 	>
 		<ChatBubble
 			imgsrc="/src/lib/images/robot-pfp.webp"
