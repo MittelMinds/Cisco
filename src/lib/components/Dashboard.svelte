@@ -105,7 +105,7 @@
 </script>
 
 <div>
-	<Card>
+	<Card class="bg-opacity-20">
 		<div class="flex w-full items-start justify-between">
 			<div class="flex-col items-center">
 				<div class="mb-1 flex items-center">

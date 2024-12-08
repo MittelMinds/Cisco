@@ -1,10 +1,7 @@
-
-
 <script>
 	import Header from '../lib/components/Header.svelte';
 	import '../app.css';
 	import Sidebar from '$lib/components/Sidebar.svelte';
-	
 
 	let { children } = $props();
 </script>
@@ -24,14 +21,17 @@
 </div>
 
 <style>
-
-	#background{
-		background-image: url("/src/lib/images/grainyGradient.jpg");
+	#background {
+		background-image: url('/src/lib/images/grainyGradient.jpg');
 		background-attachment: fixed;
+		height: 100%;
+
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	main {
-		
 		padding: 3rem;
 		width: 100%;
 	}

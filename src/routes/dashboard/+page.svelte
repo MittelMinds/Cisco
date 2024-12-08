@@ -49,7 +49,9 @@
 			<Dashboard />
 		</div>
 
-		<div class="ml-4 w-2/3 rounded p-6 text-xl shadow-md outline outline-1 outline-gray-300">
+		<div
+			class="ml-4 w-2/3 rounded bg-white bg-opacity-20 p-6 text-xl shadow-md outline outline-1 outline-gray-300"
+		>
 			<Accordion flush multiple>
 				<AccordionItem>
 					<p slot="header" class="font-xl ml-2 text-black">AI Recommendations</p>
