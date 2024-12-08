@@ -21,7 +21,8 @@
 		MapPinAltSolid,
 		ImageOutline,
 		ArrowRightOutline,
-		SearchOutline
+		SearchOutline,
+		FileLinesOutline
 	} from 'flowbite-svelte-icons';
 </script>
 
@@ -33,10 +34,10 @@
 <section class="">
 	<!-- <div class="lg:h-24">
 	</div> -->
-	<h1 class="mb-4 text-5xl font-bold">Revolutionary efficiency for all.</h1>
-	<h2 class="text-lg">Enterprise-level cost-savings for companies of all sizes.</h2>
+	<h1 class="mb-4 text-5xl font-bold">Efficiency, supercharged.</h1>
+	<h2 class="text-lg">We connect businesses that can profit from collaborating with each other.</h2>
 
-	<div class="mt-6 flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
+	<div class="mt-6 flex flex-col space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0">
 		<div class="">
 			<Card class="">
 				<h2 class="mb-6 text-xl font-semibold text-black">What are you looking for?</h2>
@@ -51,17 +52,28 @@
 					Our AI has been trained to help you find the best matches for your needs.
 				</p>
 			</Card>
-	
 		</div>
-		
-		<div class="flex flex-col w-1/3 space-y-2">
 
-			
-				<button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 w-full h-1/2 text-start">Use our Search Tool</button>
+		<div class="flex w-1/3 flex-col space-y-2">
+			<a href="offerEntryMethodSelection" class="h-1/2"
+				><button
+					type="button"
+					class="mb-2 me-2 h-full w-full rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-start text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+					>Use our Search Tool</button
+				></a
+			>
 
-				<button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 w-full h-1/2 text-start">Offer a service</button>
-			
+			<a href="offerEntryMethodSelection" class="h-1/2"
+				><button
+					type="button"
+					class="mb-2 me-2 h-full w-full rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-start text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+					>Offer a service</button
+				></a
+			>
+		</div>
 
+		<div class="outline outline-green-400 outline-1 rounded w-1/3 bg-grey-200 text-lg p-4">
+			<p>Pool your resources, schedule costly training events together and bulk order supplies together with other businesses to save cost and valuable time. Our platform helps you identify and contact suitable partners.</p>
 		</div>
 
 		<!-- <div class="bg-amber-300 flex flex-col w-full">
@@ -73,4 +85,5 @@
 			</div>
 		</div> -->
 	</div>
+	
 </section>

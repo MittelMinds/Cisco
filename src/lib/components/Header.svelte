@@ -48,8 +48,8 @@
 	</Dropdown>
 	<NavUl>
 		
-		<NavLi href="/" active={true}>AI Assistant</NavLi>
-		<NavLi href="/" active={true}>Get Connected</NavLi>
+		<NavLi href="assistant" active={true}>AI Assistant</NavLi>
+		<NavLi href="/" active={true}>Marketplace</NavLi>
 		<NavLi href="/about">Our Mission</NavLi>
 	</NavUl>
 </Navbar>

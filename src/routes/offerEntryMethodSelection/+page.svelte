@@ -22,7 +22,7 @@
 					
 			<SelectionCard imgsrc="/src/lib/images/ai_bot_image.webp" title="Use our AI Assistant" subtitle="Create the perfect listing with our AI." buttonlabel="Let's go"/>
 
-			<SelectionCard imgsrc="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png" title="Enter manually" subtitle="Fill out a simple form." buttonlabel="Search"/>
+			<SelectionCard imgsrc="/src/lib/images/form.png" title="Enter manually" subtitle="Fill out a simple form." buttonlabel="Search"/>
 		
 	</div>
 

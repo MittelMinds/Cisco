@@ -31,7 +31,7 @@
 
 	<p class="mb-6">Our AI Assistant will now guide you towards a fitting solution.</p>
 
-	<div id="chatContainer" on:scroll={() => (shouldScroll = false)}
+	<div 
 		class="mb-2 flex h-72 flex-col overflow-y-scroll rounded p-4 outline outline-2 outline-gray-500"
 	>
 		<ChatBubble
