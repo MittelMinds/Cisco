@@ -50,6 +50,7 @@
 		
 		<NavLi href="assistant" active={true}>AI Assistant</NavLi>
 		<NavLi href="/" active={true}>Marketplace</NavLi>
+		<NavLi href="dashboard" active={true}>Dashboard</NavLi>
 		<NavLi href="/about">Our Mission</NavLi>
 	</NavUl>
 </Navbar>

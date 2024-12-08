@@ -32,7 +32,7 @@
 	<p class="mb-6">Our AI Assistant will now guide you towards a fitting solution.</p>
 
 	<div 
-		class="mb-2 flex h-72 flex-col overflow-y-scroll rounded p-4 outline outline-2 outline-gray-500"
+		class="mb-2 flex h-72 flex-col overflow-auto rounded p-4 outline outline-2 outline-gray-500"
 	>
 		<ChatBubble
 			imgsrc="/src/lib/images/robot-pfp.webp"

@@ -38,7 +38,7 @@
               },
               value: {
                 show: true,
-                fontFamily: 'Inter, sans-serif',
+                fontFamily: 'Lexend',
                 offsetY: -20,
                 formatter: function (value) {
                   return value;
@@ -85,15 +85,13 @@
     };
   </script>
 
-<Heading tag="h2" customSize="text-4xl font-extrabold ">Dashboard</Heading>
-
 <div>
   
   <Card>
     <div class="flex justify-between items-start w-full">
       <div class="flex-col items-center">
         <div class="flex items-center mb-1">
-          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1">Business Relation Types</h5>
+          <h5 class="text-xl leading-none text-gray-900 dark:text-white me-1">Business Relation Types</h5>
         </div>
       </div>
     </div>
@@ -103,7 +101,7 @@
     <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
       <div class="flex justify-between items-center pt-5">
         
-        <A href="/businessrelations" class="uppercase text-sm font-semibold hover:text-primary-700 dark:hover:text-primary-500 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2 hover:no-underline">
+        <A href="/businessrelations" class="uppercase text-sm hover:text-primary-700 dark:hover:text-primary-500 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2 hover:no-underline">
           See Business Relations
           <ChevronRightOutline class="w-2.5 h-2.5 ms-1.5" />
         </A>
