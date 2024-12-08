@@ -44,7 +44,7 @@
 				<form>
 					<Textarea class="mb-4 lg:w-full" placeholder="You can type anything, it's like magic!">
 						<div slot="footer" class="flex items-center justify-between">
-							<Button href="chat" class="w-full" type="submit"><ArrowRightOutline /></Button>
+							<Button color="dark" href="chat" class="w-full" type="submit"><ArrowRightOutline /></Button>
 						</div>
 					</Textarea>
 				</form>
@@ -58,22 +58,22 @@
 			<a href="offerEntryMethodSelection" class="h-1/2"
 				><button
 					type="button"
-					class="mb-2 me-2 h-full w-full rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-start text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-					>Use our Search Tool</button
+					class="mb-2 me-2 h-full w-full rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-start text-lg font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+					><p class="font-regular text-gray-500 text-sm">Thinking about outsourcing?</p>Search our Marketplace</button
 				></a
 			>
 
 			<a href="offerEntryMethodSelection" class="h-1/2"
 				><button
 					type="button"
-					class="mb-2 me-2 h-full w-full rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-start text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-					>Offer a service</button
+					class="mb-2 me-2 h-full w-full rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-start text-lg font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+					><p class="font-regular text-gray-500 text-sm">Have something you'd like to offer?</p>Create a Listing</button
 				></a
 			>
 		</div>
 
 		<div class="outline outline-green-400 outline-1 rounded w-1/3 bg-grey-200 text-lg p-4">
-			<p>Pool your resources, schedule costly training events together and bulk order supplies together with other businesses to save cost and valuable time. Our platform helps you identify and contact suitable partners.</p>
+			<p class="flex"><ArrowRightOutline class="mr-2 mt-1"/>Pool your resources, schedule costly training events together and bulk order supplies with other businesses to save cost and valuable time. Our platform helps you identify and connect with suitable partners.</p>
 		</div>
 
 		<!-- <div class="bg-amber-300 flex flex-col w-full">
