@@ -43,7 +43,7 @@
 				<form>
 					<Textarea class="mb-4 lg:w-full" placeholder="You can type anything, it's like magic!">
 						<div slot="footer" class="flex items-center justify-between">
-							<Button class="w-full" type="submit"><ArrowRightOutline /></Button>
+							<Button href="chat" class="w-full" type="submit"><ArrowRightOutline /></Button>
 						</div>
 					</Textarea>
 				</form>
