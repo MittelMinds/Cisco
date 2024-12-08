@@ -12,7 +12,7 @@
 <div>
 	<Header />
 
-	<main>
+	<main id="background">
 		{@render children()}
 	</main>
 
@@ -24,6 +24,11 @@
 </div>
 
 <style>
+
+	#background{
+		background-image: url("/src/lib/images/grainyGradient.jpg");
+		background-attachment: fixed;
+	}
 
 	main {
 		
